@@ -1,0 +1,217 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+input, 
+button {
+    border: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+body {
+    margin: 5px;  
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    
+}
+
+p {
+    margin: 10px 0px ;
+    color: black;
+}
+    
+
+h2 {
+    margin: 10px 0px;
+    font-size: 25px;
+}
+    
+
+h3 {
+    margin: 10px 0px;
+    font-size: 20px;
+  }
+
+/* header */
+
+header div {
+    justify-content: space-between;
+    padding: 0px 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    margin: auto;
+    max-width: 1450px;
+} 
+
+header #logo {
+    padding: 0 10px;
+}
+
+#logo img {
+    width: 105px;
+    margin-left: 0px;
+} 
+
+header>div>nav {
+    padding-bottom: 10px;
+}
+
+header a {
+    margin: 0px 30px;
+}
+
+.headerNavbar {
+    display: flex;
+    margin-right: 0%;
+}
+
+header>div>nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+
+header>div>nav .nav-link:hover {
+    border-top: 6px solid #0065fc;
+    color: #0065fc;
+}
+
+header ul li a:hover {
+    border-top: 4px solid #0065fc;
+    padding-top: 24px;
+    color: #0065fc;
+}
+
+#mobil-header-nav {
+    display: none;
+}
+
+header>div>nav>ul {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+}
+
+/* main */
+#main-content {
+    padding: 0px 0px;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1450px;
+}
+
+/* rechercher input */
+#rechercher-input {
+    background-color: #d3d3d342;
+    border-radius: 18px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#rechercher-input .icon {
+    margin: 20px;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+#rechercher-input input {
+    height: 44px;
+    width: 170px;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    border-right: 0px  white;
+    border-top: 1px solid #d3d3d342;
+    border-bottom: 1px solid #d3d3d342;
+}
+
+#rechercher-input button {
+    height: 100%;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0 15px 15px 0;
+}
+
+#rechercher-input button i {
+    display: none;
+}
+
+#filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+    font: bold;
+}
+
+#filter h3 {
+    margin-top: 30px;
+    margin-right: 20px;
+    font: bold;
+}
+
+#filter button:hover {
+    color: #deebff;
+    background-color: #0065fc;
+    cursor: pointer;
+}
+
+#filter button {
+    margin: 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    background-color: transparent;
+    height: 50px;
+    
+}
+
+.filter-icon {
+    background-color: #deebff;
+    color: #0065fc;
+    padding: 15px 16px;
+    border-radius: 50%;
+    margin-left: -10px;
+    font-size: 18px;
+}
+
+.filter-text {
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*info section*/
+
+#filter-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.info-icon {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border: 0.3px solid lightgray;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #0065fc;
+}
